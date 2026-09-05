@@ -865,7 +865,6 @@ function startConfetti() {
 // FRIENDSHIP WALL
 // =========================================
 
-const wallName = document.getElementById("wallName");
 const wallMessage = document.getElementById("wallMessage");
 const postWallMessage = document.getElementById("postWallMessage");
 const wallMessagesList = document.getElementById("wallMessagesList");
@@ -879,14 +878,12 @@ wallMessage.addEventListener("input", () => {
 
 postWallMessage.addEventListener("click", async () => {
 
-    const name = wallName.value.trim();
-    const message = wallMessage.value.trim();
+    const selectedAuthor = document.querySelector(
+    'input[name="wallAuthor"]:checked'
+    );
 
-    if (!name) {
-        wallStatus.textContent = "Please enter your name. ❤️";
-        wallName.focus();
-        return;
-    }
+    const name = selectedAuthor.value;
+    const message = wallMessage.value.trim();
 
     if (!message) {
         wallStatus.textContent = "Write something first. ❤️";
