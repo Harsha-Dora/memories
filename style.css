@@ -2965,3 +2965,38 @@ section {
         width: 35px;
     }
 }
+
+.wall-name-choice {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.wall-choice-label {
+    font-size: 14px;
+    color: #777;
+    margin-right: 4px;
+}
+
+.wall-name-choice label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.wall-name-choice input[type="radio"] {
+    accent-color: #c88f8f;
+    cursor: pointer;
+}
+
+.wall-name-choice label span {
+    font-size: 14px;
+    color: #5d4a4a;
+}
+
+.wall-name-choice label:has(input:checked) span {
+    font-weight: 600;
+}
