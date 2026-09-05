@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Srusti ❤️</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================
+     SECRET PASSWORD LOCK
+========================================= -->
+
+<div id="lockScreen">
+
+    <div class="lock-card">
+
+        <div class="lock-icon" id="lockIcon">
+            🔒
+        </div>
+
+        <p class="lock-eyebrow">
+            A Little Secret
+        </p>
+
+        <h1>
+            This place is<br>
+            just for you.
+        </h1>
+
+        <div class="lock-line"></div>
+
+        <p class="lock-message">
+            Some memories are meant<br>
+            to be kept between two people.
+        </p>
+
+        <div class="password-wrapper">
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Enter the password"
+                autocomplete="off"
+            >
+
+            <button id="unlockButton">
+                Unlock ♡
+            </button>
+
+        </div>
+
+        <p class="password-error" id="passwordError">
+            That's not the right password. Try again. ♡
+        </p>
+
+        <p class="lock-footer">
+            A little world of memories awaits...
+        </p>
+
+    </div>
+
+</div>
+
+<div id="websiteContent">
+
+<!-- =========================================
+     DECORATIVE BACKGROUND
+========================================= -->
+
+<div class="background-decoration decoration-one"></div>
+<div class="background-decoration decoration-two"></div>
+
+
+<!-- =========================================
+     BACKGROUND MUSIC
+========================================= -->
+
+<audio
+    id="backgroundMusic"
+    src="audio/background-music.mp3"
+    loop
+    preload="auto">
+</audio>
+
+<audio
+    id="birthdayAudio"
+    src="audio/birthday-message.mp3"
+    preload="auto">
+</audio>
+
+
+<!-- =========================================
+     1. WELCOME
+========================================= -->
+
+<section class="hero" id="welcome">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">A little something for you</p>
+
+        <h1>
+            Happy Birthday
+            <span>Srusti ❤️</span>
+        </h1>
+
+        <div class="hero-line"></div>
+
+        <p class="hero-message">
+            Today isn't just your birthday.
+            <br>
+            It's a celebration of every moment
+            that brought us here.
+        </p>
+
+        <button class="journey-button" id="beginJourney">
+
+            Begin Our Journey
+
+            <span class="arrow">↓</span>
+
+        </button>
+
+    </div>
+
+    <div class="scroll-hint">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     2. OUR STORY BEGINS
+========================================= -->
+
+<section class="story-intro section-padding" id="story">
+
+    <div class="story-intro-content reveal">
+
+        <p class="chapter-label">
+            Chapter One
+        </p>
+
+        <div class="tiny-flower">✿</div>
+
+        <h2>
+            Our Story Begins
+        </h2>
+
+        <p class="story-text">
+            Every friendship begins somewhere.
+        </p>
+
+        <p class="story-text">
+            Ours began with a simple hello.
+        </p>
+
+        <p class="story-text emphasis">
+            The rest became memories.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     3. MEMORY TIMELINE
+========================================= -->
+
+<section class="memory-section" id="memories">
+
+    <div class="section-heading reveal">
+
+        <p class="chapter-label">
+            Our Little Scrapbook
+        </p>
+
+        <h2>
+            Memory Timeline
+        </h2>
+
+        <p>
+            Five little moments from a story
+            that is still being written.
+        </p>
+
+    </div>
+
+
+    <div class="timeline">
+
+
+        <!-- 2022 -->
+
+        <article class="memory reveal">
+
+            <div class="timeline-dot"></div>
+
+            <p class="memory-year">
+                2022
+            </p>
+
+            <div class="memory-photo landscape-photo">
+
+                <img
+                    src="images/memory1.png"
+                    alt="Our first meeting"
+                    loading="lazy"
+                >
+
+                <div class="photo-tape tape-left"></div>
+
+            </div>
+
+            <div class="memory-writing">
+
+                <p class="memory-number">
+                    Memory No. 01
+                </p>
+
+                <h3>
+                    Our First Meeting
+                </h3>
+
+                <p>
+                    Somewhere between a simple hello
+                    and an ordinary day,
+                    a friendship quietly began.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- 2023 -->
+
+        <article class="memory reveal">
+
+            <div class="timeline-dot"></div>
+
+            <p class="memory-year">
+                2023
+            </p>
+
+            <div class="memory-photo landscape-photo">
+
+                <img
+                    src="images/memory2.png"
+                    alt="Growing up together"
+                    loading="lazy"
+                >
+
+                <div class="photo-tape tape-right"></div>
+
+            </div>
+
+            <div class="memory-writing">
+
+                <p class="memory-number">
+                    Memory No. 02
+                </p>
+
+                <h3>
+                    Growing Up Together
+                </h3>
+
+                <p>
+                    Somewhere along the way,
+                    the conversations became longer,
+                    the laughter louder,
+                    and the friendship became ours.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- 2024 -->
+
+        <article class="memory reveal">
+
+            <div class="timeline-dot"></div>
+
+            <p class="memory-year">
+                2024
+            </p>
+
+            <div class="memory-photo portrait-photo">
+
+                <img
+                    src="images/memory3.png"
+                    alt="Our best trip"
+                    loading="lazy"
+                >
+
+                <div class="photo-tape tape-left"></div>
+
+            </div>
+
+            <div class="memory-writing">
+
+                <p class="memory-number">
+                    Memory No. 03
+                </p>
+
+                <h3>
+                    Best Trip
+                </h3>
+
+                <p>
+                    A place, a photograph,
+                    and a hundred tiny moments
+                    that somehow became unforgettable.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- 2025 -->
+
+        <article class="memory reveal">
+
+            <div class="timeline-dot"></div>
+
+            <p class="memory-year">
+                2025
+            </p>
+
+            <div class="memory-photo portrait-photo">
+
+                <img
+                    src="images/memory4.jpg"
+                    alt="One of my favourite days"
+                    loading="lazy"
+                >
+
+                <div class="photo-tape tape-right"></div>
+
+            </div>
+
+            <div class="memory-writing">
+
+                <p class="memory-number">
+                    Memory No. 04
+                </p>
+
+                <h3>
+                    One of My Favourite Days
+                </h3>
+
+                <p>
+                    Nothing extraordinary needed to happen.
+                    Sometimes the best memories are simply
+                    ordinary days spent with the right person.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- 2026 -->
+
+        <article class="memory reveal">
+
+            <div class="timeline-dot"></div>
+
+            <p class="memory-year">
+                2026
+            </p>
+
+            <div class="memory-photo portrait-photo">
+
+                <img
+                    src="images/memory5.jpg"
+                    alt="And here we are"
+                    loading="lazy"
+                >
+
+                <div class="photo-tape tape-left"></div>
+
+            </div>
+
+            <div class="memory-writing">
+
+                <p class="memory-number">
+                    Memory No. 05
+                </p>
+
+                <h3>
+                    And Here We Are
+                </h3>
+
+                <p>
+                    Years later,
+                    after everything life has given us,
+                    somehow our story has another page.
+                </p>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     TIMELINE TRANSITION
+========================================= -->
+
+<section class="memory-transition section-padding">
+
+    <div class="transition-content reveal">
+
+        <span class="small-heart">♡</span>
+
+        <h2>
+            Five memories captured.
+        </h2>
+
+        <p>
+            Countless more waiting to happen.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     4. LETTER
+========================================= -->
+
+<section class="letter-section section-padding" id="letter">
+
+    <div class="section-heading reveal">
+
+        <p class="chapter-label">
+            Something I Wanted To Say
+        </p>
+
+        <h2>
+            A Letter For You
+        </h2>
+
+        <p>
+            Some things deserve more than
+            a text message.
+        </p>
+
+    </div>
+
+
+    <div class="envelope-wrapper reveal">
+
+        <div class="envelope" id="envelope">
+
+            <!-- Letter paper -->
+
+            <div class="letter-paper">
+
+                <div class="letter-content">
+
+                    <p class="letter-date">
+                        September 2026
+                    </p>
+
+                    <h3>
+                        To my first friend ❤️,
+                    </h3>
+
+                    <p>
+                        From the little kids we once were to the 
+                        people we are today… you’ve been a part of 
+                        my life for so long that it’s hard to imagine 
+                        my story without you in it.
+
+                    </p>
+
+                    <p>
+                        You were my first friend, and somehow, 
+                        life took us through different phases. 
+                        Something happened, things changed, 
+                        and we went our separate ways for a while. 
+                        But somehow, after all those years, 
+                        life brought us back together again. 🫂
+                    </p>
+
+                    <p>
+                        And just when I thought we had found our way 
+                        back to each other, my own mistake the one 
+                        you already know about made us stop talking again. 
+                        I know I’m the reason things are this way, 
+                        and I’m truly sorry.
+                    </p>
+                    <p>
+                        I just want you to know that, no matter how much 
+                        life changes or how far apart we become, 
+                        I'll always be grateful that you were and always 
+                        be the first friend my life ever gave me. 
+                    </p>
+
+                    <p>
+                        Happy Birthday. ❤️
+                    </p>
+
+                    <p class="signature">
+                        Your Dora
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Envelope -->
+
+            <div class="envelope-back"></div>
+
+            <div class="envelope-front"></div>
+
+            <div class="envelope-flap"></div>
+
+            <div class="heart-seal">
+                ♥
+            </div>
+
+        </div>
+
+
+        <button class="envelope-instruction" id="envelopeInstruction">
+            Click the envelope to open
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     5. BIRTHDAY SURPRISE
+========================================= -->
+
+<section class="gift-section section-padding" id="gift">
+
+    <div class="gift-content reveal">
+
+        <p class="chapter-label">
+            One Last Little Thing
+        </p>
+
+        <h2>
+            A Birthday Surprise
+        </h2>
+
+        <p class="gift-description">
+            Because a birthday story needs
+            at least one surprise.
+        </p>
+
+
+        <button class="gift-box" id="giftButton" aria-label="Open your gift">
+
+            <span class="gift-lid">
+
+                <span class="gift-bow">
+                    <i></i>
+                    <i></i>
+                </span>
+
+            </span>
+
+            <span class="gift-body">
+                <span class="gift-ribbon"></span>
+            </span>
+
+        </button>
+
+
+        <button class="open-gift-text" id="openGiftText">
+            Open Your Gift
+        </button>
+
+
+        <div class="birthday-message" id="birthdayMessage">
+
+            <span>✨</span>
+
+            <h3>
+                Happy Birthday, Srusti.
+            </h3>
+
+            <p>
+                Here's to another year of stories
+                worth remembering.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Confetti Canvas -->
+
+<canvas id="confettiCanvas"></canvas>
+
+
+<!-- FRIENDSHIP WALL -->
+<section class="friendship-wall-section section-padding" id="friendshipWall">
+
+    <div class="section-heading">
+        <p class="section-eyebrow">A Little Place For Us</p>
+
+        <h2>Our Friendship Wall 💌</h2>
+
+        <p class="section-subtitle">
+            A little corner for the things we want to say.
+        </p>
+    </div>
+
+    <!-- Message Form -->
+    <div class="friendship-wall-form">
+
+        <input
+            type="text"
+            id="wallName"
+            placeholder="Your name"
+            maxlength="30"
+        >
+
+        <textarea
+            id="wallMessage"
+            placeholder="Write something for the wall..."
+            maxlength="500"
+        ></textarea>
+
+        <div class="wall-form-bottom">
+            <span id="characterCount">0 / 500</span>
+
+            <button id="postWallMessage">
+                Post ❤️
+            </button>
+        </div>
+
+        <p class="wall-status" id="wallStatus"></p>
+
+    </div>
+
+
+    <!-- Messages -->
+    <div class="wall-messages">
+
+        <div class="wall-messages-heading">
+            <span></span>
+            <h3>Our Messages</h3>
+            <span></span>
+        </div>
+
+        <div id="wallMessagesList">
+
+            <div class="wall-empty">
+                <span>♡</span>
+                <p>Our wall is waiting for its first memory...</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     7. ENDING
+========================================= -->
+
+<section class="ending section-padding" id="ending">
+
+    <div class="ending-content reveal">
+
+        <p class="ending-small">
+            And for now...
+        </p>
+
+        <h2>
+            Thank you
+        </h2>
+
+        <p>
+            for being part of
+        </p>
+
+        <h3>
+            my happiest memories.
+        </h3>
+
+        <div class="ending-divider"></div>
+
+        <p class="ending-story">
+            Every story has chapters.
+        </p>
+
+        <strong>
+            Ours is still being written.
+        </strong>
+
+        <span class="ending-heart">
+            ♡
+        </span>
+
+    </div>
+
+</section>
+
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+
+</html>
