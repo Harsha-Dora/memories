@@ -650,12 +650,19 @@
     <!-- Message Form -->
     <div class="friendship-wall-form">
 
-        <input
-            type="text"
-            id="wallName"
-            placeholder="Your name"
-            maxlength="30"
-        >
+        <div class="wall-name-choice">
+            <span class="wall-choice-label">Post as</span>
+
+            <label>
+                <input type="radio" name="wallAuthor" value="Dora" checked>
+                <span>Dora</span>
+            </label>
+
+            <label>
+                <input type="radio" name="wallAuthor" value="MJ">
+                <span>MJ</span>
+            </label>
+        </div>
 
         <textarea
             id="wallMessage"
