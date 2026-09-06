@@ -216,7 +216,7 @@ const birthdayMessage =
 
 backgroundMusic.volume = 0.5;
 
-birthdayAudio.volume = 1;
+birthdayAudio.volume = 0.7;
 
 
 /* =========================================
